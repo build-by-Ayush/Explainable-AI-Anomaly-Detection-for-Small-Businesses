@@ -242,7 +242,17 @@ with col4:
     render_zscore_chart(filtered_df)
 
 
+# ---------------------------------------------------
+# ROW 2
+# ---------------------------------------------------
 
+col5, col6 = st.columns(2)
+
+with col5:
+    render_anomaly_distribution(df)
+
+with col6:
+    render_top_anomalies_table(filtered_df)
 
 
 # ---------------------------------------------------
@@ -256,19 +266,6 @@ with col7:
 
 with col8:
     render_feature_correlation(filtered_df)
-
-
-# ---------------------------------------------------
-# ROW 2
-# ---------------------------------------------------
-
-col5, col6 = st.columns(2)
-
-with col5:
-    render_anomaly_distribution(df)
-
-with col6:
-    render_top_anomalies_table(filtered_df)
 
 
 st.markdown("---")
