@@ -93,6 +93,10 @@ h1{
 def load_data():
 
     df = pd.read_csv("anomaly_monitoring_project_frontend/data/processed_anomaly_data.csv")
+
+    df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+
+    df = df.dropna(subset=["timestamp"])
     
     # Explicit datetime format
     df["timestamp"] = pd.to_datetime(df["timestamp"])
