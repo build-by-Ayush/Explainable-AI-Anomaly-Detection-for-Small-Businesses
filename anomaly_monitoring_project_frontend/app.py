@@ -89,15 +89,10 @@ h1{
 # LOAD DATA
 # ---------------------------------------------------
 
-BACKEND_URL = "http://127.0.0.1:8000/get-data"
 @st.cache_data
 def load_data():
 
-    response = requests.get(BACKEND_URL)
-
-    data = response.json()
-
-    df = pd.DataFrame(data)
+    df = pd.read_csv("data/processed_anomaly_data.csv")
     
     # Explicit datetime format
     df["timestamp"] = pd.to_datetime(df["timestamp"])
