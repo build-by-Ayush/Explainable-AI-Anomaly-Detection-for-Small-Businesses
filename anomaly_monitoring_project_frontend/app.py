@@ -92,7 +92,7 @@ h1{
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("data/processed_anomaly_data.csv")
+    df = pd.read_csv("anomaly_monitoring_project_frontend/data/processed_anomaly_data.csv")
     
     # Explicit datetime format
     df["timestamp"] = pd.to_datetime(df["timestamp"])
