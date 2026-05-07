@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B.svg)](https://streamlit.io/)
 [![LSTM](https://img.shields.io/badge/ML%20Model-LSTM-orange.svg)](#)
 
-**Live Demo:** [Check out the Live Dashboard](https://build-by-ayush-ex-anomaly-monitoring-project-frontendapp-rezvyx.streamlit.app/) 
+**Live Demo:** [Check out the Live Dashboard](https://explainable-ai-anomaly-detection-for-small-businesses-dkyywvwa.streamlit.app/) 
 
 ---
 
