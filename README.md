@@ -20,7 +20,7 @@ Modern systems such as industrial machines, sensors, and business processes gene
 How can unusual system behavior be detected automatically while providing simple, easy-to-understand insights?
 
 ---
-![Dashboard Overview](Images/Dashboard_Overview.png)
+![Dashboard Overview](Photos/KPIS_&_Health_Bar.png)
 ---
 
 ## Objective
